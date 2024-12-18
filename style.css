@@ -41,7 +41,7 @@ header #logo a {
 
 header #menu-header nav ul {
     display: flex;
-    gap: 1vw;
+    gap: 3vw;
 }
 
 header #menu-header nav ul li a {
@@ -55,10 +55,80 @@ header #menu-header nav ul li a:hover {
 /*Inicio*/
 
 #inicio {
-    padding: 5vh 10vw;
+    padding: 10vh 10vw;
     background-image:url(imgs/imagem-inicio.jpg) ;
     background-position:center right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+
+#inicio p {
+    color: var(--branco);
+    font-size: 2vw;
+    text-shadow: 1px 1px 5px black;
+    margin: 1vh 0;
+}
+
+#inicio h1 {
+    color: var(--preto);
+    font-size: 4.5vw;
+    text-shadow: 1px 1px 1px var(--preto);
+    margin: 2vh 0;
+}
+
+/*Sobre*/
+
+#sobre { 
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    background-color: #252525 ;
+}
+
+#sobre .foto-user {
+    background-color: #aabadd;
+    max-width: 50vw;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#sobre .foto-user img {
+    width: 100%;
+    height: 100%;
+}
+
+#sobre #conteudo-sobre h2 {
+    color: var(--branco);
+    font-size: 4.5vw;
+    margin-bottom: 3vh;
+}
+
+#sobre #conteudo-sobre h3 {
+    color: #aabadd;
+    font-size: 3vw;
+    margin: 2vh 0;
+}
+
+#sobre #conteudo-sobre p {
+    color: var(--branco);
+    margin: 2vh 0;
+    font-size: 2vw;
+}
+
+#sobre #conteudo-sobre button {
+    background-color: red;
+    box-shadow: 1px 1px 5px var(--preto);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: var(--branco);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px var(--preto);
+    cursor: pointer;
+}
+#sobre #conteudo-sobre button:hover {
+    transform: scale(102%);
+    opacity: 0.9;
 }
