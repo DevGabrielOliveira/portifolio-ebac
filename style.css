@@ -118,8 +118,8 @@ header #menu-header nav ul li a:hover {
 }
 
 #sobre #conteudo-sobre button {
+    font-size: 2vw;
     background-color: red;
-    box-shadow: 1px 1px 5px var(--preto);
     padding: 10px;
     border-radius: 20px;
     border: 1px solid red;
@@ -131,4 +131,109 @@ header #menu-header nav ul li a:hover {
 #sobre #conteudo-sobre button:hover {
     transform: scale(102%);
     opacity: 0.9;
+}
+
+
+/*Habilidades*/
+
+#habilidades {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 10vh 10vw;
+    text-align: center;
+}
+
+#habilidades h2 {
+    text-align: center;
+    font-size: 4.5vw;
+    margin-bottom: 3vh;
+}
+
+#habilidades #container-habilidades {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+#habilidades #container-habilidades .item-habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #252525;
+    padding: 10px;
+    height: 20vh;
+    width: 25vw;
+}
+
+#habilidades #container-habilidades .item-habilidade h3 {
+    font-size: 3vw;
+}
+
+#habilidades #container-habilidades .item-habilidade p {
+    color: #aabadd;
+    font-size: 2.5vw;
+}
+
+#habilidades button {
+    font-size: 2vw;
+    padding: 10px;
+    max-width: 30vw;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: var(--branco);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px var(--preto);
+    cursor: pointer;
+}
+#habilidades button:hover {
+    transform: scale(102%);
+    opacity: 0.9;
+}
+
+
+/*Contatos*/
+
+#contatos {
+    background-color: #252525;
+    color: var(--branco);
+    padding: 10vh 10vw;
+    text-align: center;
+}
+
+#contatos h2 {
+    font-size: 4.5vw;
+    margin-bottom: 3vh;
+}
+
+#contatos #itens-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contatos #itens-contatos .container-redes-sociais {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #252525;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer p a {
+    color: #aabadd;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
