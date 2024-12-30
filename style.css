@@ -163,8 +163,7 @@ header #menu-header nav ul li a:hover {
     text-align: center;
     gap: 10px;
     background-color: #252525;
-    padding: 10px;
-    height: 20vh;
+    padding: 5vh;
     width: 25vw;
 }
 
